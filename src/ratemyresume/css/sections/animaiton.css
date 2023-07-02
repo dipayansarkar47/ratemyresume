@@ -1,0 +1,28 @@
+img[data-aos] {
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  [data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  [data-aos="fade-left"] {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  [data-aos="fade-right"] {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  
+  [data-aos="fade-up"].aos-animate,
+  [data-aos="fade-left"].aos-animate,
+  [data-aos="fade-right"].aos-animate {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+  

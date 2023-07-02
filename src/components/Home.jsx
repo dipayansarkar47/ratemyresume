@@ -1,7 +1,7 @@
 import { PhotoIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom'
 
-export default function Example() {
+export default function Home() {
     return (
         <form>
 

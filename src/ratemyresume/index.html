@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/sushi.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+      .hero-content-info {
+        margin-top: 1rem;
+      }
+      .trending-sushi,
+      .trending-drinks {
+        flex-direction: column;
+      }
+    }
+  </style>
+  <title>Rate My Resume</title>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-image">
+      <img 
+        src="assets/img1.jpg"
+        alt="sushi"
+        data-aos="fade-up"
+      />
+      <div class="hero-image__overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-content-info" data-aos="fade-left">
+        <h1>Rate My Resume</h1>
+        <p>
+          Rate My Resume is a website dedicated to helping job seekers improve their resumes. 
+          Our platform evaluates resumes based on ATS-friendly formatting and the 
+          required skills for specific jobs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="trending" id="food">
+    <section class="trending-sushi">
+      <div class="trending__content" data-aos="fade-right">
+        <p class="sushi__subtitle">Not to mention</p>
+        <h3 class="sushi__title">How it Works</h3>
+        <p class="sushi__description">
+          Upload your resume, select the job you are applying for, and our advanced algorithm will analyze your resume based on ATS friendliness and required
+        </p>
+      </div>
+      <div class="trending__image flex-center">
+        <img src="assets/img2.jpg" alt="sushi-5" data-aos="fade-left" />
+        <div class="trending__arrow trending__arrow-left">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+        <div class="trending__arrow trending__arrow-bottom">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-drinks">
+      <div class="trending__image flex-center">
+        <img src="assets/img4.jpg" alt="sushi-4" data-aos="fade-right" />
+        <div class="trending__arrow trending__arrow-top">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+        <div class="trending__arrow trending__arrow-right">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+      </div>
+      <div class="trending__content" data-aos="fade-left">
+        <p class="sushi__subtitle">And Let's Not Forget</p>
+        <h3 class="sushi__title">Why Choose Us</h3>
+        <p class="sushi__description">
+          Our platform provides valuable insights and feedback to improve your resume's chances of getting noticed by employers. Stay ahead of the competition and increase your chances of landing your dream job.
+        </p>
+      </div>
+    </section>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="js/script.js" type="module"></script>
+
+</body>
+</html>
